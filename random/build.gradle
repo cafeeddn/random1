@@ -53,10 +53,3 @@ processResources {
         expand props
     }
 }
-jar {
-    archiveFileName = 'testplugin.jar'
-    destinationDirectory = file("C:\\Users\\Soyeon\\IdeaProjects")
-    manifest {
-        attributes 'Main-Class': 'org.Soyeon.random.Random'
-    }
-}
