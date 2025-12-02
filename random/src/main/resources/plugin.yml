@@ -1,0 +1,7 @@
+name: LuckyBox
+version: 1.0.0
+api-version: '1.21'
+commands:
+  random:
+    description: Open test lucky box
+    usage: /luckybox
